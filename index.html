@@ -28,7 +28,7 @@ $('#upload').on('click', function() {
           contentType: false,
           processData: false,
           data: form_data,                         
-          type: 'post',
+          type: 'get',
           success: function(php_script_response){
               alert(php_script_response);
           }
