@@ -1,5 +1,5 @@
 <?php
-    $target_dir = 'assets/upload/';
+    $target_dir = '/';
     $filename = trim(addslashes($_FILES['file']['name']));
     $filename = preg_replace('/\s+/', '_', $filename);
     $target_file = $target_dir . basename($filename);
